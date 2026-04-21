@@ -1,0 +1,15 @@
+// ltl-forth/main.ltl
+//
+// Small Forth-like concatenative language with threaded code.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-forth v0.1.0")
+    io::println("Small Forth-like concatenative language with threaded code.")
+    0
+}
